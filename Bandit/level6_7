@@ -1,0 +1,9 @@
+ssh into bandit6 
+keybandit6: pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
+
+
+Task:
+  find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+  (Basically i want to search everywhere where this may happen)
+
+key: Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3 

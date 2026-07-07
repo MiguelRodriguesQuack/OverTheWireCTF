@@ -1,0 +1,6 @@
+ssh into bandit1
+
+Use this to read dashed file
+  cat ./- 
+
+key: PK8fYLZg2hnHSz83plBL1iEPKdD3QToB

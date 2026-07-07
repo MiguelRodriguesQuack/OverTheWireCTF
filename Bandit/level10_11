@@ -1,0 +1,8 @@
+ssh into bandit10 
+keybandit10: B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
+
+
+Task:
+  base64 -d data.txt
+
+key: pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro

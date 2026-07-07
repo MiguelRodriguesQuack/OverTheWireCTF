@@ -1,0 +1,9 @@
+ssh into bandit8 
+keybandit8: VR1ljMayciFxbnUokuQmJFw6QC9VKtub
+
+
+Task:
+  sort data.txt | uniq -u
+  (need to sort first)
+
+key: EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl

@@ -1,0 +1,9 @@
+ssh into bandit9 
+keybandit9: EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
+
+
+Task:
+  strings data.txt | grep -E '=+'
+  (use strings cause of the binary, its mixed with readable text)
+
+key: B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
