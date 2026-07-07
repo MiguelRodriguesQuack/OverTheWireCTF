@@ -3,6 +3,9 @@ keybandit11: pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
 
 
 Task:
+  alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
+  (decided to create this so i dont have to go online to get the value or do the 'tr' for it again)
+  
+  cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 
-
-key: 
+key: GROozWPO8QyN0mGrjUkID0WCYkZiQxrN

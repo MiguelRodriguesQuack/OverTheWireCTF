@@ -1,0 +1,17 @@
+ssh into bandit12 
+keybandit12: GROozWPO8QyN0mGrjUkID0WCYkZiQxrN
+
+
+Task:
+  mktemp -d
+    created this folder -> /tmp/tmp.I188JizFC8
+  xxd -r data.txt > /tmp/tmp.I188JizFC8/output.bin
+    converted to .bin because there was .bin somewhere in data.txt
+  file /tmp/tmp.I188JizFC8/output.bin
+    tells me the first compression was gzip
+  cd /tmp/tmp.I188JizFC8
+    1. basically here i just used a lot of "file data.txt" to see how it was compressed
+    2. then i extracted it that way
+    then repeat 1. and 2. till i got the key
+
+key: qQYQiHOBPR8zR61qxYqX45quvihF2uzk
