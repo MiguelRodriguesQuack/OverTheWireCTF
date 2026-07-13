@@ -3,6 +3,9 @@ keybandit13: qQYQiHOBPR8zR61qxYqX45quvihF2uzk
 
 
 Task:
+  had to copy the key to a file, since i could'nt change permissions on the server.
+  ssh -i -> identity file (private key)
+  ssh -i level13_14_key bandit14@bandit.labs.overthewire.org -p 2220
+  
 
-
-key: 
+key: read Task

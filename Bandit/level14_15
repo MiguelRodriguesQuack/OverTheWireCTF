@@ -1,0 +1,22 @@
+ssh into bandit14 
+keybandit14: aaWecNkG4FhxJQxz07uiwzVP6bJiYS65
+
+
+Task:
+  pretty confusing, had to cat while connecting on port 30000
+  Basically this:
+  You are bandit14
+        |
+        | read current password
+        v
+/etc/bandit_pass/bandit14
+        |
+        | send it using nc
+        v
+localhost:30000
+        |
+        | service checks if password is correct
+        v
+returns bandit15 password
+
+key: pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7
