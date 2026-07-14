@@ -1,0 +1,20 @@
+ssh into bandit16
+keybandit16: kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V 
+
+
+Task:
+  I have current key here
+  cat /etc/bandit_pass/bandit16
+
+  find some ports
+    nmap -p 31000-32000 localhost
+  just detect the remainers now
+    nmap -sV -p 31046,31518,31691,31790,31960 localhost
+  got a match on port 31790
+    openssl s_client -connect localhost:31790 -quiet
+      enter password bandit16
+  received a private key
+  saved it on a file and used "ssh -i key ..." to enter with it 
+  also had to change permissions to 600 cause of warning/error
+
+key: pWXMAZoxGC8JmDMfmT5MGEsobMM3vnj2

@@ -3,6 +3,10 @@ keybandit15: pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7
 
 
 Task:
+  somehow managed to get it on first try
+  just had to change to openssl since its SSL/TLS encryption.
+    openssl s_client -connect localhost:30001
+  then had to type bandit15 password
+  it returned the key for bandit16 
 
-
-key: 
+key: kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V 

@@ -4,6 +4,9 @@ keybandit14: aaWecNkG4FhxJQxz07uiwzVP6bJiYS65
 
 Task:
   pretty confusing, had to cat while connecting on port 30000
+  
+  cat /etc/bandit_pass/bandit14 | nc localhost 30000
+  
   Basically this:
   You are bandit14
         |
