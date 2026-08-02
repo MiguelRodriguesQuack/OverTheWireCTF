@@ -1,0 +1,17 @@
+ssh into bandit20 
+keybandit20: 4pIjcunZ0fK2vmp3IwfG8Vf7VhxD6pOA
+
+
+Task:
+  By running ./suconnect i see that it is TCP so i'll use "nc"
+
+  Need 2 terminals for this exercise!
+  In the first terminal i create a listener on a source_port like 12345 for example.
+    nc -l -p 12345
+  On the second terminal i run the file on that port. 
+    ./suconnnect 12345
+  Now I just need to do like Im told and paste the current password.
+
+  Basically im creating a TCP server with nc -l and since suconnect is expecting a line of text it works.
+
+key: bW9kBv5WC3P4yoDyf12LSdGuNz5ka6hY 

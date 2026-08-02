@@ -1,0 +1,12 @@
+ssh into bandit17 
+keybandit17: pWXMAZoxGC8JmDMfmT5MGEsobMM3vnj2 
+
+
+Task:
+  Just diff the files
+   diff passwords.new passwords.old
+  need to ssh into bandit18 while "cat readme" cause of level 18->19
+  ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme
+    key19 -> KpsOfPkcP7i1FlIExk2QEjyt6dw8dxZI 
+
+key: OQxXZjELndr90zuhOTDYBEomI0SZITXI 

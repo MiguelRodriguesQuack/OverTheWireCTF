@@ -1,0 +1,15 @@
+ssh into bandit21 
+keybandit21: bW9kBv5WC3P4yoDyf12LSdGuNz5ka6hY
+
+
+Task:
+   ls -lah /etc/cron.d/
+  found file named cronjob_bandit22 so i read its content, found /usr/bin/cronjob_bandit22.sh is being used.
+    cat /etc/cron.d/cronjob_bandit22
+  also read the contents of .sh file, saw /tmp/ being used so i now know i can read it in there.
+    cat /usr/bin/cronjob_bandit22.sh
+    
+    cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+
+
+key: RYVux2rHEm9tiXHmLFzuR7Vhx6AZQMEz

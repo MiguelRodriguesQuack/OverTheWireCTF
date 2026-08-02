@@ -1,0 +1,15 @@
+ssh into bandit19 
+keybandit19: KpsOfPkcP7i1FlIExk2QEjyt6dw8dxZI
+
+
+Task:
+  List permissions
+    ls -lah bandit20-do 
+  Im not the owner, i can only run with group permissions
+  Run the file
+    ./bandit20-do
+  Since the file is running on bandit20 privileges i can use commands like "cat" to see stuff i need
+    ./bandit20-do cat /etc/bandit_pass/bandit20
+
+
+key: 4pIjcunZ0fK2vmp3IwfG8Vf7VhxD6pOA
