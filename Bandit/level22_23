@@ -3,6 +3,8 @@ keybandit22: RYVux2rHEm9tiXHmLFzuR7Vhx6AZQMEz
 
 
 Task:
+  Again there is a .sh file for cron23, read the file.
+  There it says the password is basically just a basic string in md5, so i changed part of it and it worked when i ran it via terminal.
+  
 
-
-key: 
+key: gKXDTAXnIz3OBxiPjRZ2uqutUlPZrBsw
