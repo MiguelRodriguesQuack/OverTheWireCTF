@@ -3,6 +3,14 @@ keybandit23: gKXDTAXnIz3OBxiPjRZ2uqutUlPZrBsw
 
 
 Task:
+cronjob tells me what folder it is executing files
+so i create a basic script like this 
+    #!/bin/bash
+    cat /etc/bandit_pass/bandit24 > /tmp/tmp.HJCzOtzvK1/password
+i also created a empty file to store my future password
+i gave permissions to my script, password file, and current folder
+then
+  cp bandit24_pass.sh /var/spool/bandit24/foo/bandit24_pass.sh
+password is in my file now
 
-
-key: 
+key: hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv
