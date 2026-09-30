@@ -1,0 +1,14 @@
+ssh into bandit31 
+keybandit31 82NkymblpGBYmIXG6ZQ8YldBYstHpfUf
+
+
+Task:
+
+Follow exercise steps
+
+git add -f key.txt
+git commit -m "Add key.txt"
+git push
+
+
+key: pWuj5jBQ6IgV0NXwiH6g1pXRF8S1YvbT 

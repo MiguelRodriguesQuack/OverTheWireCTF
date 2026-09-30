@@ -1,8 +1,16 @@
 ssh into bandit24 
-keybandit gKXDTAXnIz3OBxiPjRZ2uqutUlPZrBsw
+keybandit: hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv
 
 
 Task:
+First brute force exercise.
+create temp folder, create script inside, give it run permissions
+    #!/bin/bash
+    for i in {0000..9999}
+    do
+          echo hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv $i >> attempts.txt
+    done
+    cat attempts.txt | nc localhost 30002 > result.txt
+./runScript then grep created file to find what i need
 
-
-key: 
+key: SoHfqMOEqIX2IYKVciZxvgpR9a2Djx4P 

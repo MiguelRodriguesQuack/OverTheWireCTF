@@ -1,0 +1,17 @@
+ssh into bandit28 
+keybandit28 y8Yd2ssKcpHpud7UvOSOxwamRMzIGIeQ
+
+
+Task:
+Clone again.
+
+Find stuff in repo.
+Important commands
+  git status
+  git branch -a 
+  git log --oneline --all
+
+git show 4357a63 will show changes made on commit i give it.
+
+
+key: Em7eGtqaMySwNFjCpwzzHhLhospOcdt0

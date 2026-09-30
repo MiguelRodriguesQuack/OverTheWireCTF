@@ -1,0 +1,16 @@
+ssh into bandit27 
+keybandit27 STJLJBRRphMxKB392CT4iOr5CbzPU9ER
+
+
+Task:
+In my machine, clone git rep at ssh://bandit27-git@bandit.labs.overthewire.org/home/bandit27-git/repo
+  via port 2220
+  password STJLJBRRphMxKB392CT4iOr5CbzPU9ER
+
+  git clone ssh://bandit27-git@bandit.labs.overthewire.org:2220/home/bandit27-git/repo
+Notice I added the port
+
+Now I have repo in my folder.
+Read file inside.
+
+key: y8Yd2ssKcpHpud7UvOSOxwamRMzIGIeQ

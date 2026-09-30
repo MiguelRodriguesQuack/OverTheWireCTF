@@ -1,0 +1,19 @@
+ssh into bandit26
+keybandit26 jHdv2ELQhT22BkprMNDjybZDAkw1zeBJ
+
+Attention: 
+I need to connect the same way i did in previous level due to the script that runs
+Check the file with information!
+
+
+Task:
+Enter bandit26 via bandit25_26 exercise.
+Run the file that's given.
+  It can be run as another user like bandit27.
+  ./bandit27-do cat /etc/bandit_pass/bandit27
+  
+Exploiting file permissions to read password (running with bandit27 permissions)
+Remember in the return of ./bandit27-do bandit27 has EUID, which can access files.
+
+
+key: STJLJBRRphMxKB392CT4iOr5CbzPU9ER

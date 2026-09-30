@@ -1,0 +1,27 @@
+ssh into bandit25 
+keybandit25 SoHfqMOEqIX2IYKVciZxvgpR9a2Djx4P 
+
+
+Task:
+tried copy paste sshkey to my machine and enter next level with the key and failed miserably.
+remeber bandit26 is not using /bin/bash
+
+found a script while on bandit25
+  cat /etc/passwd | grep bandit26
+  cat /usr/bin/showtext
+    the script is using more and a different shell
+
+ssh -i bandit26.sshkey bandit26@bandit.labs.overthewire.org -p 2220
+
+if i make the window smaller like to fewer lines, this forces the more inside the script i checked earlier
+so now i can do some shenanigans!
+
+more supports keyboard shortcut v that opens vim editor
+  :set shell=/bin/bash
+  :set shell?      #confirm it changed
+  :shell           #launch shell inside vim
+  :whoami          #im in bandit26
+This means im inside the machine through the vim editor, so just get the passwd
+  cat /etc/bandit_pass/bandit26
+
+key: jHdv2ELQhT22BkprMNDjybZDAkw1zeBJ
